@@ -270,6 +270,10 @@ function initProjectGallery() {
             title: "Breakout Ball Game",
             images: ["images/BBG4.jpg", "images/BBG1.jpg", "images/BBG2.jpg", "images/BBG3.jpg", "images/BBG5.jpg", "images/BBG6.jpg"],
         },
+        "multi-lang-project": {
+            title: "Multi-Language Translator",
+            images: ["images/a1.png", "images/A2 (2).png", "images/a3.png", "images/a4.png"],
+        },
         "note-app": {
             title: "Advanced Notes App",
             images: ["images/AN1.png", "images/AN2.png", "images/AN3.png", "images/AN4.png", "images/AN5.png"],
@@ -490,4 +494,3 @@ function initParticles() {
 
 
 // start http://127.0.0.1:8000
-
