@@ -854,6 +854,19 @@ button {
     overflow: hidden;
 }
 
+#stock-analyzer .project-slider {
+    height: 340px;
+    min-height: 340px;
+    background: #f4efe7;
+}
+
+#stock-analyzer .project-slider-inner img {
+    object-fit: contain;
+    object-position: center;
+    padding: 14px;
+    background: #f4efe7;
+}
+
 .project-slider::after {
     content: "";
     position: absolute;
@@ -922,14 +935,30 @@ button {
 .project-slider-inner {
     display: flex;
     height: 100%;
+    align-items: stretch;
     transition: transform 0.5s ease;
 }
 
 .project-slider-inner img {
+    display: block;
+    flex: 0 0 100%;
     min-width: 100%;
     width: 100%;
     height: 100%;
     object-fit: cover;
+}
+
+.project-slider-inner img.contain-image {
+    object-fit: contain;
+    background: #f4efe7;
+}
+
+.project-slider-inner img.fill-image {
+    object-fit: cover;
+}
+
+.project-slider-inner img.stock-b1-image {
+    object-position: center;
 }
 
 .slider-controls {
